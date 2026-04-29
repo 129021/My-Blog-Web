@@ -5,7 +5,7 @@ category: "前端开发"
 tags: ["Next.js", "React", "TypeScript"]
 description: "介绍如何使用 Next.js 15 App Router 从零搭建一个高性能的个人博客网站。"
 cover: ""
-author: "Jianqin Wang"
+author: "Jason Wang"
 ---
 
 ## 前言

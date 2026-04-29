@@ -5,7 +5,7 @@ category: "前端开发"
 tags: ["React", "动画", "Framer Motion"]
 description: "从基础到高级，全面掌握 Framer Motion 的动画技巧，让你的 React 应用动起来。"
 cover: ""
-author: "Jianqin Wang"
+author: "Jason Wang"
 ---
 
 ## 为什么选择 Framer Motion

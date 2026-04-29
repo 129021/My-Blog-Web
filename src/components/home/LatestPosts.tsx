@@ -22,7 +22,10 @@ export function LatestPosts() {
           </div>
           <Link href="/categories">
             <Button variant="ghost" size="sm">
-              查看全部 →
+              查看全部
+              <svg className="ml-1 inline h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
             </Button>
           </Link>
         </div>

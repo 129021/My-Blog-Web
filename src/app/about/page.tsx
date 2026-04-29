@@ -12,6 +12,14 @@ const SKILLS = [
   "Tailwind CSS", "Framer Motion", "PostgreSQL", "Docker",
 ];
 
+function ArrowIcon() {
+  return (
+    <svg className="ml-1 inline h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+    </svg>
+  );
+}
+
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8">
@@ -59,9 +67,9 @@ export default function AboutPage() {
               href={SOCIAL_LINKS.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-1 text-sm text-cyan-400 hover:underline"
+              className="inline-flex items-center gap-1 mt-1 text-sm text-cyan-400 hover:underline"
             >
-              查看代码 →
+              查看代码<ArrowIcon />
             </a>
           </Card>
           <Card>
@@ -70,18 +78,18 @@ export default function AboutPage() {
               href={SOCIAL_LINKS.twitter}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-1 text-sm text-cyan-400 hover:underline"
+              className="inline-flex items-center gap-1 mt-1 text-sm text-cyan-400 hover:underline"
             >
-              关注动态 →
+              关注动态<ArrowIcon />
             </a>
           </Card>
           <Card>
             <h3 className="font-semibold">Email</h3>
             <a
               href={SOCIAL_LINKS.email}
-              className="mt-1 text-sm text-cyan-400 hover:underline"
+              className="inline-flex items-center gap-1 mt-1 text-sm text-cyan-400 hover:underline"
             >
-              发送邮件 →
+              发送邮件<ArrowIcon />
             </a>
           </Card>
         </div>

@@ -5,7 +5,7 @@ category: "前端开发"
 tags: ["CSS", "UI设计", "动画"]
 description: "不依赖任何库，使用纯 CSS 实现赛博朋克风格的视觉效果，包括霓虹灯、扫描线和故障效果。"
 cover: ""
-author: "Jianqin Wang"
+author: "Jason Wang"
 ---
 
 ## 设计理念

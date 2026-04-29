@@ -5,6 +5,7 @@ import { useSession, signIn, signOut } from "next-auth/react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
+import { SITE } from "@/lib/constants";
 
 export function UserMenu() {
   const { data: session } = useSession();
@@ -72,6 +73,15 @@ export function UserMenu() {
             >
               个人中心
             </Link>
+            {(session.user?.email && SITE.ownerEmails.includes(session.user.email)) && (
+              <Link
+                href="/admin"
+                onClick={() => setOpen(false)}
+                className="block rounded-lg px-3 py-2 text-sm text-cyan-400 hover:bg-[var(--color-glass-bg)]"
+              >
+                管理后台
+              </Link>
+            )}
             <button
               onClick={() => {
                 setOpen(false);

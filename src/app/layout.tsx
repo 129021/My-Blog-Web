@@ -6,7 +6,7 @@ import { Footer } from "@/components/layout/Footer";
 import { ScrollToTop } from "@/components/ui/ScrollToTop";
 import { CursorGlow } from "@/components/effects/CursorGlow";
 import { PageTransition } from "@/components/effects/PageTransition";
-import { SITE } from "@/lib/constants";
+import { SITE, UMAMI } from "@/lib/constants";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -39,6 +39,13 @@ export default function RootLayout({
             `,
           }}
         />
+        {UMAMI.websiteId && (
+          <script
+            defer
+            src={UMAMI.scriptUrl}
+            data-website-id={UMAMI.websiteId}
+          />
+        )}
       </head>
       <body className="min-h-screen bg-[var(--color-bg)] text-[var(--color-fg)] antialiased">
         <ThemeProvider>

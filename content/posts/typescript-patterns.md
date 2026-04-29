@@ -5,7 +5,7 @@ category: "编程语言"
 tags: ["TypeScript", "类型系统"]
 description: "深入探索 TypeScript 的高级类型特性，包括条件类型、模板字面量类型和递归类型。"
 cover: ""
-author: "Jianqin Wang"
+author: "Jason Wang"
 ---
 
 ## 引言
