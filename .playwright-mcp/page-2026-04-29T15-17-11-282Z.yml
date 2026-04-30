@@ -1,0 +1,184 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "CyberLog" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=e6]:
+          - link "首页" [ref=e7] [cursor=pointer]:
+            - /url: /
+          - link "分类" [ref=e8] [cursor=pointer]:
+            - /url: /categories
+          - link "标签" [ref=e9] [cursor=pointer]:
+            - /url: /tags
+          - link "关于" [ref=e10] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e11]:
+          - button "Toggle theme" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 💻
+          - button "登录" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: Welcome to my digital garden
+          - heading "Jason Wang Full-Stack Developer" [level=1] [ref=e22]:
+            - generic [ref=e23]: Jason Wang
+            - generic [ref=e24]: Full-Stack Developer
+          - paragraph [ref=e25]: 构建数字世界的无限可能
+          - generic [ref=e26]:
+            - link "探索文章" [ref=e27] [cursor=pointer]:
+              - /url: /categories
+              - button "探索文章" [ref=e28]
+            - link "关于我" [ref=e29] [cursor=pointer]:
+              - /url: /about
+              - button "关于我" [ref=e30]
+        - generic [ref=e31]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - heading "最新文章" [level=2] [ref=e35]
+              - paragraph [ref=e36]: 记录技术思考与探索
+            - link "查看全部" [ref=e37] [cursor=pointer]:
+              - /url: /categories
+              - button "查看全部" [ref=e38]:
+                - text: 查看全部
+                - img [ref=e39]
+          - generic [ref=e41]:
+            - link [ref=e43] [cursor=pointer]:
+              - /url: /posts/111222
+              - article [ref=e44]:
+                - generic [ref=e45]:
+                  - generic [ref=e47]: 未分类
+                  - heading "111" [level=3] [ref=e48]
+                  - paragraph [ref=e49]: "222"
+                  - generic [ref=e50]:
+                    - generic [ref=e51]:
+                      - img [ref=e52]
+                      - text: 2026-04-29
+                    - generic [ref=e54]:
+                      - img [ref=e55]
+                      - text: 1 分钟
+                  - generic [ref=e58]: cyberpunk
+            - link [ref=e60] [cursor=pointer]:
+              - /url: /posts/测试文章slug
+              - article [ref=e61]:
+                - generic [ref=e62]:
+                  - generic [ref=e64]: 未分类
+                  - heading "测试文章标题" [level=3] [ref=e65]
+                  - paragraph [ref=e66]: 测试描述
+                  - generic [ref=e67]:
+                    - generic [ref=e68]:
+                      - img [ref=e69]
+                      - text: 2026-04-29
+                    - generic [ref=e71]:
+                      - img [ref=e72]
+                      - text: 1 分钟
+            - link [ref=e75] [cursor=pointer]:
+              - /url: /posts/hello-world
+              - article [ref=e76]:
+                - generic [ref=e77]:
+                  - generic [ref=e79]: 前端开发
+                  - heading "Hello World：用 Next.js 15 构建现代博客" [level=3] [ref=e80]
+                  - paragraph [ref=e81]: 介绍如何使用 Next.js 15 App Router 从零搭建一个高性能的个人博客网站。
+                  - generic [ref=e82]:
+                    - generic [ref=e83]:
+                      - img [ref=e84]
+                      - text: 2026-04-20
+                    - generic [ref=e86]:
+                      - img [ref=e87]
+                      - text: 2 分钟
+                  - generic [ref=e89]:
+                    - generic [ref=e90]: Next.js
+                    - generic [ref=e91]: React
+                    - generic [ref=e92]: TypeScript
+            - link [ref=e94] [cursor=pointer]:
+              - /url: /posts/typescript-patterns
+              - article [ref=e95]:
+                - generic [ref=e96]:
+                  - generic [ref=e98]: 编程语言
+                  - heading "TypeScript 高级类型体操实战" [level=3] [ref=e99]
+                  - paragraph [ref=e100]: 深入探索 TypeScript 的高级类型特性，包括条件类型、模板字面量类型和递归类型。
+                  - generic [ref=e101]:
+                    - generic [ref=e102]:
+                      - img [ref=e103]
+                      - text: 2026-04-15
+                    - generic [ref=e105]:
+                      - img [ref=e106]
+                      - text: 2 分钟
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: TypeScript
+                    - generic [ref=e110]: 类型系统
+            - link [ref=e112] [cursor=pointer]:
+              - /url: /posts/css-art
+              - article [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e116]: 前端开发
+                  - heading "纯 CSS 实现赛博朋克风格 UI" [level=3] [ref=e117]
+                  - paragraph [ref=e118]: 不依赖任何库，使用纯 CSS 实现赛博朋克风格的视觉效果，包括霓虹灯、扫描线和故障效果。
+                  - generic [ref=e119]:
+                    - generic [ref=e120]:
+                      - img [ref=e121]
+                      - text: 2026-04-10
+                    - generic [ref=e123]:
+                      - img [ref=e124]
+                      - text: 2 分钟
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: CSS
+                    - generic [ref=e128]: UI设计
+                    - generic [ref=e129]: 动画
+            - link [ref=e131] [cursor=pointer]:
+              - /url: /posts/framer-motion-guide
+              - article [ref=e132]:
+                - generic [ref=e133]:
+                  - generic [ref=e135]: 前端开发
+                  - heading "Framer Motion 动效完全指南" [level=3] [ref=e136]
+                  - paragraph [ref=e137]: 从基础到高级，全面掌握 Framer Motion 的动画技巧，让你的 React 应用动起来。
+                  - generic [ref=e138]:
+                    - generic [ref=e139]:
+                      - img [ref=e140]
+                      - text: 2026-04-05
+                    - generic [ref=e142]:
+                      - img [ref=e143]
+                      - text: 2 分钟
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: React
+                    - generic [ref=e147]: 动画
+                    - generic [ref=e148]: Framer Motion
+        - generic [ref=e150]:
+          - heading "探索分类" [level=2] [ref=e152]
+          - generic [ref=e153]:
+            - link "前端开发 3 篇" [ref=e155] [cursor=pointer]:
+              - /url: /categories/前端开发
+              - generic [ref=e156]:
+                - generic [ref=e157]: 前端开发
+                - generic [ref=e158]: 3 篇
+            - link "未分类 2 篇" [ref=e160] [cursor=pointer]:
+              - /url: /categories/未分类
+              - generic [ref=e161]:
+                - generic [ref=e162]: 未分类
+                - generic [ref=e163]: 2 篇
+            - link "编程语言 1 篇" [ref=e165] [cursor=pointer]:
+              - /url: /categories/编程语言
+              - generic [ref=e166]:
+                - generic [ref=e167]: 编程语言
+                - generic [ref=e168]: 1 篇
+        - generic [ref=e171]:
+          - heading "关于我" [level=2] [ref=e172]
+          - paragraph [ref=e173]: 我是 Jason Wang，一名 Full-Stack Developer。 热爱构建优雅的代码和极致的用户体验。专注于 React 生态系统和现代前端技术栈。写作是我整理思路和分享知识的方式。
+          - link "了解更多" [ref=e175] [cursor=pointer]:
+            - /url: /about
+            - button "了解更多" [ref=e176]
+    - contentinfo [ref=e177]:
+      - generic [ref=e178]:
+        - paragraph [ref=e179]: © 2024 - 2026 Jason Wang. All rights reserved.
+        - generic [ref=e180]:
+          - link "GitHub" [ref=e181] [cursor=pointer]:
+            - /url: https://github.com/129021
+          - link "Twitter" [ref=e182] [cursor=pointer]:
+            - /url: https://twitter.com
+          - link "Email" [ref=e183] [cursor=pointer]:
+            - /url: mailto:jasonwang1997@foxmail.com
+          - link "RSS" [ref=e184] [cursor=pointer]:
+            - /url: /rss.xml
+  - button "Open Next.js Dev Tools" [ref=e190] [cursor=pointer]:
+    - img [ref=e191]
+  - alert [ref=e194]

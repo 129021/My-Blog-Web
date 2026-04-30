@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "CyberLog" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=e6]:
+          - link "首页" [ref=e7] [cursor=pointer]:
+            - /url: /
+          - link "分类" [ref=e8] [cursor=pointer]:
+            - /url: /categories
+          - link "标签" [ref=e9] [cursor=pointer]:
+            - /url: /tags
+          - link "关于" [ref=e10] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e11]:
+          - button "Toggle theme" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: ☀️
+          - button "登录" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - article [ref=e20]:
+        - generic [ref=e21]:
+          - link "未分类" [ref=e22] [cursor=pointer]:
+            - /url: /categories/未分类
+          - heading "测试文章标题" [level=1] [ref=e23]
+          - generic [ref=e24]:
+            - generic [ref=e25]: 2026-04-29
+            - generic [ref=e26]: ·
+            - generic [ref=e27]: 1 分钟阅读
+            - generic [ref=e28]: ·
+            - generic [ref=e29]:
+              - img [ref=e30]
+              - text: 1 次阅读
+            - generic [ref=e33]: ·
+            - generic [ref=e34]: Jason Wang
+        - generic [ref=e36]:
+          - paragraph [ref=e37]:
+            - img "Snipaste_2025-08-24_17-59-27.png" [ref=e38]
+            - iframe [ref=e39]:
+              - generic [active] [ref=f2e1]:
+                - generic "YouTube 视频播放器" [ref=f2e3]
+                - generic [ref=f2e5]:
+                  - generic:
+                    - generic:
+                      - button "播放视频" [ref=f2e10] [cursor=pointer]:
+                        - generic [ref=f2e13]:
+                          - img
+                      - button "隐藏播放器控件" [ref=f2e14] [cursor=pointer]
+                      - generic [ref=f2e16]:
+                        - generic [ref=f2e21]:
+                          - generic [ref=f2e22]:
+                            - link "I Investigated The World's \"Strangest Country\"" [ref=f2e23] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=w4ep9YwpT1g
+                            - link "Nadir On The Go" [ref=f2e24] [cursor=pointer]:
+                              - /url: /channel/UCqlthGjbLIci7i3x2gk8P4Q
+                              - generic [ref=f2e25]: Nadir On The Go
+                          - generic [ref=f2e26]:
+                            - button "thumbnail-image" [ref=f2e27] [cursor=pointer]:
+                              - img "thumbnail-image" [ref=f2e28]
+                            - generic [ref=f2e30]:
+                              - generic: Nadir On The Go
+                              - generic: 60万位订阅者
+                        - generic [ref=f2e31]:
+                          - button "分享" [ref=f2e34] [cursor=pointer]:
+                            - generic [ref=f2e38]:
+                              - img
+                          - link "在 YouTube 上观看" [ref=f2e45] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=w4ep9YwpT1g
+                            - generic [ref=f2e48]:
+                              - text: 前往平台观看：
+                              - img [ref=f2e50]:
+                                - generic [ref=f2e52]:
+                                  - img
+            - text: 测试内容
+          - paragraph [ref=e40]: "123"
+        - iframe [ref=e43]:
+          - main [ref=f3e3]:
+            - generic [ref=f3e6]: 正在加载评论……
+    - contentinfo [ref=e44]:
+      - generic [ref=e45]:
+        - paragraph [ref=e46]: © 2024 - 2026 Jason Wang. All rights reserved.
+        - generic [ref=e47]:
+          - link "GitHub" [ref=e48] [cursor=pointer]:
+            - /url: https://github.com/129021
+          - link "Twitter" [ref=e49] [cursor=pointer]:
+            - /url: https://twitter.com
+          - link "Email" [ref=e50] [cursor=pointer]:
+            - /url: mailto:jasonwang1997@foxmail.com
+          - link "RSS" [ref=e51] [cursor=pointer]:
+            - /url: /rss.xml
+  - button "Open Next.js Dev Tools" [ref=e57] [cursor=pointer]:
+    - img [ref=e58]
+  - alert [ref=e61]

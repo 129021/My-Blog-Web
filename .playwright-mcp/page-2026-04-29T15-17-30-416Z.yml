@@ -1,0 +1,90 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CyberLog" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "首页" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "分类" [ref=e8] [cursor=pointer]:
+          - /url: /categories
+        - link "标签" [ref=e9] [cursor=pointer]:
+          - /url: /tags
+        - link "关于" [ref=e10] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=e11]:
+        - button "Toggle theme" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: 💻
+        - button "登录" [ref=e14] [cursor=pointer]
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "分类：前端开发" [level=1] [ref=e19]
+        - paragraph [ref=e20]: 共 3 篇文章
+      - generic [ref=e21]:
+        - link [ref=e22] [cursor=pointer]:
+          - /url: /posts/hello-world
+          - article [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e26]: 前端开发
+              - heading "Hello World：用 Next.js 15 构建现代博客" [level=3] [ref=e27]
+              - paragraph [ref=e28]: 介绍如何使用 Next.js 15 App Router 从零搭建一个高性能的个人博客网站。
+              - generic [ref=e29]:
+                - generic [ref=e30]:
+                  - img [ref=e31]
+                  - text: 2026-04-20
+                - generic [ref=e33]:
+                  - img [ref=e34]
+                  - text: 2 分钟
+              - generic [ref=e36]:
+                - generic [ref=e37]: Next.js
+                - generic [ref=e38]: React
+                - generic [ref=e39]: TypeScript
+        - link [ref=e40] [cursor=pointer]:
+          - /url: /posts/css-art
+          - article [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e44]: 前端开发
+              - heading "纯 CSS 实现赛博朋克风格 UI" [level=3] [ref=e45]
+              - paragraph [ref=e46]: 不依赖任何库，使用纯 CSS 实现赛博朋克风格的视觉效果，包括霓虹灯、扫描线和故障效果。
+              - generic [ref=e47]:
+                - generic [ref=e48]:
+                  - img [ref=e49]
+                  - text: 2026-04-10
+                - generic [ref=e51]:
+                  - img [ref=e52]
+                  - text: 2 分钟
+              - generic [ref=e54]:
+                - generic [ref=e55]: CSS
+                - generic [ref=e56]: UI设计
+                - generic [ref=e57]: 动画
+        - link [ref=e58] [cursor=pointer]:
+          - /url: /posts/framer-motion-guide
+          - article [ref=e59]:
+            - generic [ref=e60]:
+              - generic [ref=e62]: 前端开发
+              - heading "Framer Motion 动效完全指南" [level=3] [ref=e63]
+              - paragraph [ref=e64]: 从基础到高级，全面掌握 Framer Motion 的动画技巧，让你的 React 应用动起来。
+              - generic [ref=e65]:
+                - generic [ref=e66]:
+                  - img [ref=e67]
+                  - text: 2026-04-05
+                - generic [ref=e69]:
+                  - img [ref=e70]
+                  - text: 2 分钟
+              - generic [ref=e72]:
+                - generic [ref=e73]: React
+                - generic [ref=e74]: 动画
+                - generic [ref=e75]: Framer Motion
+  - contentinfo [ref=e76]:
+    - generic [ref=e77]:
+      - paragraph [ref=e78]: © 2024 - 2026 Jason Wang. All rights reserved.
+      - generic [ref=e79]:
+        - link "GitHub" [ref=e80] [cursor=pointer]:
+          - /url: https://github.com/129021
+        - link "Twitter" [ref=e81] [cursor=pointer]:
+          - /url: https://twitter.com
+        - link "Email" [ref=e82] [cursor=pointer]:
+          - /url: mailto:jasonwang1997@foxmail.com
+        - link "RSS" [ref=e83] [cursor=pointer]:
+          - /url: /rss.xml

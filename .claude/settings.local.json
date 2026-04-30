@@ -2,7 +2,27 @@
   "permissions": {
     "allow": [
       "Bash(pnpm create *)",
-      "Bash(pnpm build *)"
+      "Bash(pnpm build *)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "Bash(curl -s http://localhost:3099/api/views)",
+      "Bash(curl -s -X POST http://localhost:3099/api/views -H \"Content-Type: application/json\" -d '{\"slug\":\"hello-world\"}')",
+      "Bash(curl -s http://localhost:3099/api/views?slug=hello-world)",
+      "Bash(curl -s \"http://localhost:3099/api/views?slug=hello-world\")",
+      "Bash(curl -s -X POST http://localhost:3099/api/posts -H \"Content-Type: application/json\" -d '{\"slug\":\"test\",\"title\":\"test\",\"content\":\"test\"}')",
+      "Bash(curl -s -X POST http://localhost:3099/api/upload -F \"file=@/dev/null\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:3099/posts/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0slug\")",
+      "Bash(python3 -c 'import urllib.parse; print\\(urllib.parse.quote\\(\"测试文章slug\"\\)\\)')",
+      "Bash(curl -s \"http://localhost:3099/posts/$\\(python3 -c 'import urllib.parse; print\\(urllib.parse.quote\\(\"测试文章slug\"\\)\\)'\\)\")",
+      "Bash(node *)",
+      "Bash(curl -s \"http://localhost:3099/posts/测试文章slug\")",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pnpm dev *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP: %{http_code}\\\\n\" \"http://localhost:3099/posts/测试文章slug\")"
     ]
   }
 }

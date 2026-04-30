@@ -8,7 +8,7 @@ author: "Jason Wang"
 ---
 
 
-![Snipaste_2025-08-24_17-59-27.png](/images/1777473496935-4xxao8.png)<iframe width="100%" height="450" src="https://www.youtube.com/embed/w4ep9YwpT1g" frameborder="0" allowfullscreen></iframe>
+![Snipaste_2025-08-24_17-59-27.png](/images/1777473496935-4xxao8.png)<iframe width="100%" height="450" src="https://www.youtube.com/embed/w4ep9YwpT1g" frameBorder="0" allowFullScreen></iframe>
 测试内容
 
 123

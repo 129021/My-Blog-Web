@@ -1,0 +1,76 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "CyberLog" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=e6]:
+          - link "首页" [ref=e7] [cursor=pointer]:
+            - /url: /
+          - link "分类" [ref=e8] [cursor=pointer]:
+            - /url: /categories
+          - link "标签" [ref=e9] [cursor=pointer]:
+            - /url: /tags
+          - link "关于" [ref=e10] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e11]:
+          - button "Toggle theme" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 💻
+          - button "登录" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - heading "标签：#React" [level=1] [ref=e19]:
+            - text: 标签：
+            - generic [ref=e20]: "#React"
+          - paragraph [ref=e21]: 共 2 篇文章
+        - generic [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /posts/hello-world
+            - article [ref=e24]:
+              - generic [ref=e25]:
+                - generic [ref=e27]: 前端开发
+                - heading "Hello World：用 Next.js 15 构建现代博客" [level=3] [ref=e28]
+                - paragraph [ref=e29]: 介绍如何使用 Next.js 15 App Router 从零搭建一个高性能的个人博客网站。
+                - generic [ref=e30]:
+                  - generic [ref=e31]:
+                    - img [ref=e32]
+                    - text: 2026-04-20
+                  - generic [ref=e34]:
+                    - img [ref=e35]
+                    - text: 2 分钟
+                - generic [ref=e37]:
+                  - generic [ref=e38]: Next.js
+                  - generic [ref=e39]: React
+                  - generic [ref=e40]: TypeScript
+          - link [ref=e41] [cursor=pointer]:
+            - /url: /posts/framer-motion-guide
+            - article [ref=e42]:
+              - generic [ref=e43]:
+                - generic [ref=e45]: 前端开发
+                - heading "Framer Motion 动效完全指南" [level=3] [ref=e46]
+                - paragraph [ref=e47]: 从基础到高级，全面掌握 Framer Motion 的动画技巧，让你的 React 应用动起来。
+                - generic [ref=e48]:
+                  - generic [ref=e49]:
+                    - img [ref=e50]
+                    - text: 2026-04-05
+                  - generic [ref=e52]:
+                    - img [ref=e53]
+                    - text: 2 分钟
+                - generic [ref=e55]:
+                  - generic [ref=e56]: React
+                  - generic [ref=e57]: 动画
+                  - generic [ref=e58]: Framer Motion
+    - contentinfo [ref=e59]:
+      - generic [ref=e60]:
+        - paragraph [ref=e61]: © 2024 - 2026 Jason Wang. All rights reserved.
+        - generic [ref=e62]:
+          - link "GitHub" [ref=e63] [cursor=pointer]:
+            - /url: https://github.com/129021
+          - link "Twitter" [ref=e64] [cursor=pointer]:
+            - /url: https://twitter.com
+          - link "Email" [ref=e65] [cursor=pointer]:
+            - /url: mailto:jasonwang1997@foxmail.com
+          - link "RSS" [ref=e66] [cursor=pointer]:
+            - /url: /rss.xml
+  - alert [ref=e67]

@@ -1,0 +1,151 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CyberLog" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "首页" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "分类" [ref=e8] [cursor=pointer]:
+          - /url: /categories
+        - link "标签" [ref=e9] [cursor=pointer]:
+          - /url: /tags
+        - link "关于" [ref=e10] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=e11]:
+        - button "Toggle theme" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: 💻
+        - button "登录" [ref=e14] [cursor=pointer]
+  - main [ref=e15]:
+    - generic [ref=e18]:
+      - complementary [ref=e20]:
+        - navigation [ref=e21]:
+          - paragraph [ref=e22]: 目录
+          - link "前言" [ref=e23] [cursor=pointer]:
+            - /url: "#前言"
+          - link "为什么选择 Next.js 15" [ref=e24] [cursor=pointer]:
+            - /url: "#为什么选择-next-js-15"
+          - link "项目架构" [ref=e25] [cursor=pointer]:
+            - /url: "#项目架构"
+          - link "总结" [ref=e26] [cursor=pointer]:
+            - /url: "#总结"
+      - article [ref=e27]:
+        - generic [ref=e28]:
+          - link "前端开发" [ref=e29] [cursor=pointer]:
+            - /url: /categories/前端开发
+          - heading "Hello World：用 Next.js 15 构建现代博客" [level=1] [ref=e30]
+          - generic [ref=e31]:
+            - generic [ref=e32]: 2026-04-20
+            - generic [ref=e33]: ·
+            - generic [ref=e34]: 2 分钟阅读
+            - generic [ref=e35]: ·
+            - generic [ref=e36]:
+              - img [ref=e37]
+              - text: 4 次阅读
+            - generic [ref=e40]: ·
+            - generic [ref=e41]: Jason Wang
+          - generic [ref=e42]:
+            - link "Next.js" [ref=e43] [cursor=pointer]:
+              - /url: /tags/Next.js
+            - link "React" [ref=e44] [cursor=pointer]:
+              - /url: /tags/React
+            - link "TypeScript" [ref=e45] [cursor=pointer]:
+              - /url: /tags/TypeScript
+        - generic [ref=e47]:
+          - heading "前言" [level=2] [ref=e48]:
+            - link "前言" [ref=e49] [cursor=pointer]:
+              - /url: "#前言"
+          - paragraph [ref=e50]: Next.js 15 带来了更强大的 App Router 和 React Server Components，让构建高性能博客变得前所未有的简单。本文将介绍核心架构设计。
+          - heading "为什么选择 Next.js 15" [level=2] [ref=e51]:
+            - link "为什么选择 Next.js 15" [ref=e52] [cursor=pointer]:
+              - /url: "#为什么选择-nextjs-15"
+          - paragraph [ref=e53]: Next.js 15 相比之前版本有以下几个关键改进：
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - strong [ref=e56]: App Router 稳定
+              - text: ：基于文件系统的路由，支持布局嵌套、加载状态、错误边界
+            - listitem [ref=e57]:
+              - strong [ref=e58]: React Server Components
+              - text: ：默认服务端渲染，减少客户端 JavaScript 体积
+            - listitem [ref=e59]:
+              - strong [ref=e60]: 流式渲染
+              - text: ：使用
+              - code [ref=e61]: "`loading.tsx`"
+              - text: 和
+              - code [ref=e62]: "`Suspense`"
+              - text: 实现渐进式页面加载
+            - listitem [ref=e63]:
+              - strong [ref=e64]: 图片优化
+              - text: ：内置
+              - code [ref=e65]: "`next/image`"
+              - text: 组件，自动优化图片格式和尺寸
+          - heading "项目架构" [level=2] [ref=e66]:
+            - link "项目架构" [ref=e67] [cursor=pointer]:
+              - /url: "#项目架构"
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: typescript
+              - button "复制" [ref=e71] [cursor=pointer]:
+                - generic [ref=e72]: 复制
+            - code [ref=e74]:
+              - text: "// app/layout.tsx - 根布局 export default function RootLayout({ children, }: { children: React.ReactNode; }) { return ("
+              - generic [ref=e75]:
+                - generic [ref=e76]: <html lang="zh-CN">
+                - generic [ref=e77]: <body>
+                - generic [ref=e78]: <ThemeProvider>
+                - generic [ref=e79]: <Navbar />
+                - generic [ref=e80]: <main>
+                - text: "{children}"
+                - generic [ref=e81]: </main>
+                - generic [ref=e82]: <Footer />
+                - generic [ref=e83]: </ThemeProvider>
+                - generic [ref=e84]: </body>
+                - generic [ref=e85]: </html>
+              - text: "); }"
+          - heading "总结" [level=2] [ref=e86]:
+            - link "总结" [ref=e87] [cursor=pointer]:
+              - /url: "#总结"
+          - paragraph [ref=e88]: Next.js 15 的 App Router 提供了一流的开发体验。配合 Tailwind CSS 和 Framer Motion，可以快速构建出既美观又高性能的博客。
+          - table [ref=e89]:
+            - rowgroup [ref=e90]:
+              - row "特性 支持情况" [ref=e91]:
+                - columnheader "特性" [ref=e92]
+                - columnheader "支持情况" [ref=e93]
+            - rowgroup [ref=e94]:
+              - row "SSR ✅" [ref=e95]:
+                - cell "SSR" [ref=e96]
+                - cell "✅" [ref=e97]
+              - row "SSG ✅" [ref=e98]:
+                - cell "SSG" [ref=e99]
+                - cell "✅" [ref=e100]
+              - row "ISR ✅" [ref=e101]:
+                - cell "ISR" [ref=e102]
+                - cell "✅" [ref=e103]
+              - row "流式渲染 ✅" [ref=e104]:
+                - cell "流式渲染" [ref=e105]
+                - cell "✅" [ref=e106]
+        - navigation [ref=e108]:
+          - link "上一篇 TypeScript 高级类型体操实战" [ref=e109] [cursor=pointer]:
+            - /url: /posts/typescript-patterns
+            - generic [ref=e110]:
+              - img [ref=e111]
+              - text: 上一篇
+            - paragraph [ref=e113]: TypeScript 高级类型体操实战
+          - link "下一篇 测试文章标题" [ref=e114] [cursor=pointer]:
+            - /url: /posts/测试文章slug
+            - generic [ref=e115]:
+              - text: 下一篇
+              - img [ref=e116]
+            - paragraph [ref=e118]: 测试文章标题
+  - contentinfo [ref=e120]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: © 2024 - 2026 Jason Wang. All rights reserved.
+      - generic [ref=e123]:
+        - link "GitHub" [ref=e124] [cursor=pointer]:
+          - /url: https://github.com/129021
+        - link "Twitter" [ref=e125] [cursor=pointer]:
+          - /url: https://twitter.com
+        - link "Email" [ref=e126] [cursor=pointer]:
+          - /url: mailto:jasonwang1997@foxmail.com
+        - link "RSS" [ref=e127] [cursor=pointer]:
+          - /url: /rss.xml

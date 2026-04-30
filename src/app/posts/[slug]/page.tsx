@@ -48,8 +48,8 @@ export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
-  if (!post) return { title: "文章未找到" };
+  const post = getPostBySlug(decodeURIComponent(slug));
+  if (!post) return {};
 
   return {
     title: post.frontmatter.title,
@@ -59,7 +59,8 @@ export async function generateMetadata({
 
 export default async function PostPage({ params }: PageProps) {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  // Next.js may not fully decode non-ASCII slugs, so decode again
+  const post = getPostBySlug(decodeURIComponent(slug));
 
   if (!post) notFound();
 

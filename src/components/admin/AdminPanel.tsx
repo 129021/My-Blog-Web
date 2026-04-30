@@ -127,7 +127,7 @@ export function AdminPanel({ posts, categories, tags, viewsData }: Props) {
     if (ytMatch) {
       const videoId = ytMatch[1]!;
       insertAtCursor(
-        `<iframe width="100%" height="450" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>`,
+        `<iframe width="100%" height="450" src="https://www.youtube.com/embed/${videoId}" frameBorder="0" allowFullScreen></iframe>`,
       );
       return;
     }
@@ -138,7 +138,7 @@ export function AdminPanel({ posts, categories, tags, viewsData }: Props) {
     if (biliMatch) {
       const bvid = biliMatch[1]!;
       insertAtCursor(
-        `<iframe width="100%" height="450" src="//player.bilibili.com/player.html?bvid=${bvid}&page=1" frameborder="0" allowfullscreen></iframe>`,
+        `<iframe width="100%" height="450" src="//player.bilibili.com/player.html?bvid=${bvid}&page=1" frameBorder="0" allowFullScreen></iframe>`,
       );
       return;
     }
